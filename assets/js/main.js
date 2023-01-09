@@ -37,7 +37,12 @@ function scrollHeader(){
     if(this.scrollY >= 100) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
-
+function scrollHeader2(){
+    const header = document.getElementById('header2')
+    // When the scroll is greater than 100 viewport height, add the scroll-header class to the header tag
+    if(this.scrollY >= 0) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+}
+window.addEventListener('scroll', scrollHeader2)
 /*==================== SWIPER DISCOVER ====================*/
 let swiper = new Swiper(".discover__container", {
     effect: "coverflow",
