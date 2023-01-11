@@ -1190,14 +1190,14 @@ input {
 .overview-box .icon:before {
   line-height: 60px;
 }
-.overview-box .icon > img {
+/* .overview-box .icon > img {
   -webkit-filter: brightness(1) invert(1);
   filter: brightness(1) invert(1);
 }
 .overview-box:hover .icon > img {
   -webkit-filter: none;
   filter: none;
-}
+} */
 .overview-box .content {
   padding-left: 20px;
   transition: all 0.3s;
