@@ -1,143 +1,285 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+<head>
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
 
-        <title>Outline Designs</title>
-    </head>
-    <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Outline Designs</a>
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#place" class="nav__link">Projects</a>
-                        </li>
-                        
-                    </ul>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-                    <!-- <div class="nav__dark">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Outline Designs</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Outline Designs</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Projects</a>
+                    </li>
+
+                </ul>
+
+                <!-- <div class="nav__dark">
                         
                         <span class="change-theme-name">Dark mode</span>
                         <i class="ri-moon-line change-theme" id="theme-button"></i>
                     </div> -->
 
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/2img.jpg" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Design your place</span>
+                    <h1 class="home__data-title"> Bringing your vision to life, <br> one <b>outline</b> <br> at a
+                        time</b></h1>
+                    <!-- <a href="#" class="button">Explore</a> -->
+
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
+                <div class="home__social">
+                    <a href="https://www.facebook.com/profile.php?id=100072403491575&sk=about" target="_blank"
+                        class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/outline_designs_ltd/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
                 </div>
-            </nav>
-        </header>
 
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home" id="home">
-                <img src="assets/img/2img.jpg" alt="" class="home__img">
-
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <span class="home__data-subtitle">Design your place</span>
-                        <h1 class="home__data-title">  Bringing your vision to life,  <br> one   <b>outline</b> <br> at a time</b></h1>
-                        <!-- <a href="#" class="button">Explore</a> -->
-
-                    </div>
-
-                    <div class="home__social">
-                        <a href="https://www.facebook.com/profile.php?id=100072403491575&sk=about" target="_blank" class="home__social-link">
-                            <i class="ri-facebook-box-fill"></i>
-                        </a>
-                        <a href="https://www.instagram.com/outline_designs_ltd/" target="_blank" class="home__social-link">
-                            <i class="ri-instagram-fill"></i>
-                        </a>
-                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="home__info">
-                        <div>
-                            <span class="home__info-title">State of the art archetectural designs</span>
-                            <!-- <a href="" class="button button--flex button--link home__info-button">
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">State of the art archetectural designs</span>
+                        <!-- <a href="" class="button button--flex button--link home__info-button">
                                 More <i class="ri-arrow-right-line"></i>
                             </a> -->
-                        </div>
+                    </div>
 
-                        <div class="home__info-overlay">
-                            <img src="assets/img/small.jpg" alt="" class="home__info-img">
+                    <div class="home__info-overlay">
+                        <img src="assets/img/small.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title">More Information <br> About Outline Designs</h2>
+                    <p class="about__description">Outline Designs is a construction and architectural company that
+                        specializes in creating unique and innovative designs for a range of projects, including
+                        residential, commercial and public buildings. With a team of experienced professionals and a
+                        commitment to sustainability, Outline Designs has a reputation for delivering high-quality
+                        projects on time and within budget. Whether working with clients to develop a new building from
+                        the ground up or renovating an existing structure, Outline Designs strives to exceed customer
+                        expectations and create spaces that are both functional and aesthetically pleasing.
+                    </p>
+                    <!-- We are proud to be the premier architectural firm in the area, known for our innovative and sustainable designs that push the boundaries of residential and commercial projects. We have a team of highly-skilled architects, designers, and construction managers who are dedicated to creating unique spaces that are both functional and aesthetically pleasing. Let us help you turn your vision into reality -->
+                    <!-- <a href="#" class="button">Reserve a place</a> -->
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/1img.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="assets/img/5img.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="services">
+            <div class="container">
+                <div class="justify-content-center row">
+                    <div class="col-12 col-md-10 col-lg-6 col">
+                        <div class="section-title text-center">
+                            <h3>The way shopping should be</h3>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <div class="about__container container grid">
-                    <div class="about__data">
-                        <h2 class="section__title about__title">More Information <br> About Outline Designs</h2>
-                        <p class="about__description">Outline Designs is a construction and architectural company that specializes in creating unique and innovative designs for a range of projects, including residential, commercial, and public buildings. With a team of experienced professionals and a commitment to sustainability, Outline Designs has a reputation for delivering high-quality projects on time and within budget. Whether working with clients to develop a new building from the ground up or renovating an existing structure, Outline Designs strives to exceed customer expectations and create spaces that are both functional and aesthetically pleasing.
-                        </p>
-                        <!-- <a href="#" class="button">Reserve a place</a> -->
-                    </div>
-
-                    <div class="about__img">
-                        <div class="about__img-overlay">
-                            <img src="assets/img/1img.jpg" alt="" class="about__img-one">
+                <div class="row">
+                    <div data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0"
+                        class="col-12 col-lg-4 res-margin wow fadeInUp col">
+                        <div class="service-single">
+                            <div class="icon icon-basic-lock"></div>
+                            <h5>Architectural Designs</h5>
+                            <p>
+                                Our architectural design service is focused on creating beautiful and functional spaces. We work closely with you to understand your specific needs and desires, and use our expertise to create a design that reflects your unique style. Our team is committed to creating innovative and sustainable spaces that are tailored to meet your needs
+                            </p>
                         </div>
-
-                        <div class="about__img-overlay">
-                            <img src="assets/img/5img.jpg" alt="" class="about__img-two">
+                    </div>
+                    <div data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0.3s"
+                        class="col-12 col-lg-4 res-margin wow fadeInUp col">
+                        <div class="service-single">
+                            <div class="icon icon-basic-headset"></div>
+                            <h5>Consultancy</h5>
+                            <p>
+                                Our consultancy service provides expert advice and support throughout the entire project, from initial concept development to final construction management. We have a team of experienced consultants who will work closely with you to ensure that your project is a success.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-wow-offset="10" data-wow-duration="1s" data-wow-delay="0.6s"
+                        class="col-12 col-lg-4 res-margin wow fadeInUp col">
+                        <div class="service-single">
+                            <div class="icon icon-ecommerce-bag-check"></div>
+                            <h5>Project Management</h5>
+                            <p>
+                                Our project management service ensures that your project runs smoothly, on time and within budget. We work closely with you to define your project objectives, timelines and deliverables, as well as manage all aspects of the project from planning, design, and construction to final completion
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
-            
-            
-
-            <!--==================== EXPERIENCE ====================-->
-            <section class="experience section">
-                <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
-
-                <div class="experience__container container grid">
-                    <div class="experience__content grid">
-                        <div class="experience__data">
-                            <h2 class="experience__number">2</h2>
-                            <span class="experience__description">Years <br> Experience</span>
+            </div>
+        </section>
+        
+<br>
+            <section id="overview">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 offset-lg-1 order-lg-last res-margin col">
+                            <div class="section-title text-center text-lg-start">
+                                <h3>Anytime Anywhere</h3>
+                            </div>
+                            <div class="overview-item">
+                                <div class="overview-box d-flex flex-wrap">
+                                    <div class="icon icon-basic-compass"></div>
+                                    <div class="content">
+                                        <h6 class="font-weight-bold mb-2 mt-0">Anywhere</h6>
+                                        <p>Shop from anywhere and have it delivered in your home or workplace</p>
+                                    </div>
+                                </div>
+                                <div class="overview-box d-flex flex-wrap">
+                                    <div class="icon icon-basic-helm"></div>
+                                    <div class="content">
+                                        <h6 class="font-weight-bold mb-2 mt-0">AnyTime</h6>
+                                        <p>Track your order with the DHL tracking number in the app</p>
+                                    </div>
+                                </div>
+                                <div class="overview-box d-flex flex-wrap">
+                                    <div class="icon icon-basic-link"></div>
+                                    <div class="content">
+                                        <h6 class="font-weight-bold mb-2 mt-0">Stay Connected</h6>
+                                        <p>Connect with local and international businesses</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="experience__data">
-                            <h2 class="experience__number">7</h2>
-                            <span class="experience__description">Complete <br> projects</span>
+                        <div class="col-12 col-lg-5 order-lg-first text-sm-center col"><img
+                                src="/static/Track-your-order-c946992e999a096b434f03475661cc08.png" alt=""></div>
+                    </div>
+                    <div class="empty-100"></div>
+                   
+                </div>
+            
+        </section>
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Services <br> We Offer</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
+                                class="card-img-top" width="auto" height=300 alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Architectural Designs</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
-
-                        <div class="experience__data">
-                            <h2 class="experience__number">4.2/5</h2>
-                            <span class="experience__description">Customer   <br> Ratings</span>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                                class="card-img-top" width="auto" height=300 alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Consultancy Services</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Project Management</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- <div class="experience__img grid">
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
+
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">2</h2>
+                        <span class="experience__description">Years <br> Experience</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">7</h2>
+                        <span class="experience__description">Complete <br> projects</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">4.2/5</h2>
+                        <span class="experience__description">Customer <br> Ratings</span>
+                    </div>
+                </div>
+
+                <!-- <div class="experience__img grid">
                         <div class="experience__overlay">
                             <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
                         </div>
@@ -146,231 +288,231 @@
                             <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
                         </div>
                     </div> -->
+            </div>
+        </section>
+
+
+
+        <!--==================== PLACES ====================-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Projects </h2>
+            <div class="place__container container grid">
+
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/Attic Bungalow 1/Sample 1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Bungallow</h3>
+                            <!-- <span class="place__subtitle">Indonesia</span> -->
+                            <!-- <span class="place__price">$2499</span> -->
+                        </div>
+                    </div>
+
+                    <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
                 </div>
-            </section>
 
-            
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/Attic Bungalow 1/2.jpg" alt="" class="place__img">
 
-            <!--==================== PLACES ====================-->
-            <section class="place section" id="place">
-                <h2 class="section__title">Projects </h2>
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">5.0</span>
+                        </span>
 
-                <div class="place__container container grid">
-                    <!--==================== PLACES CARD 1 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/Attic Bungalow 1/Sample 1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Bungallow</h3>
-                                <!-- <span class="place__subtitle">Indonesia</span> -->
-                                <!-- <span class="place__price">$2499</span> -->
-                            </div>
+                        <div class="place__data">
+                            <h3 class="place__title">Attic Bungallow</h3>
+                            <span class="place__subtitle">Attic</span>
+                            <!-- <span class="place__price">$1599</span> -->
                         </div>
-
-                        <!-- <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button> -->
                     </div>
 
-                    <!--==================== PLACES CARD 2 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/Attic Bungalow 1/2.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">5.0</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Attic Bungallow</h3>
-                                <span class="place__subtitle">Attic</span>
-                                <!-- <span class="place__price">$1599</span> -->
-                            </div>
-                        </div>
-
-                        <!-- <button class="button button--flex place__button">
+                    <!-- <button class="button button--flex place__button">
                             <i class="ri-arrow-right-line"></i>
                         </button> -->
-                    </div>
+                </div>
 
-                    <!--==================== PLACES CARD 3 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/Attic Bungalow 2/2.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.9</span>
-                            </span>
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/Attic Bungalow 2/2.jpg" alt="" class="place__img">
 
-                            <div class="place__data">
-                                <h3 class="place__title">Attic Bungallow</h3>
-                                <!-- <span class="place__subtitle">EE.UU</span> -->
-                                <!-- <span class="place__price">$3499</span> -->
-                            </div>
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Attic Bungallow</h3>
+                            <!-- <span class="place__subtitle">EE.UU</span> -->
+                            <!-- <span class="place__price">$3499</span> -->
                         </div>
-<!-- 
+                    </div>
+                    <!-- 
                         <button class="button button--flex place__button">
                             <i class="ri-arrow-right-line"></i>
                         </button> -->
+                </div>
+
+                <!--==================== PLACES CARD 4 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/Bungalow 1/1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Bungallow</h3>
+                            <span class="place__subtitle"> </span>
+                            <!-- <span class="place__price">$2499</span> -->
+                        </div>
                     </div>
 
-                    <!--==================== PLACES CARD 4 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/Bungalow 1/1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Bungallow</h3>
-                                <span class="place__subtitle"> </span>
-                                <!-- <span class="place__price">$2499</span> -->
-                            </div>
-                        </div>
-
-                        <!-- <button class="button button--flex place__button">
+                    <!-- <button class="button button--flex place__button">
                             <i class="ri-arrow-right-line"></i>
                         </button> -->
+                </div>
+
+                <!--==================== PLACES CARD 5 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/Maisonette Flat roof 2/1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Maisonette</h3>
+                            <span class="place__subtitle">Flat Roof</span>
+                            <!-- <span class="place__price">$1999</span> -->
+                        </div>
                     </div>
 
-                    <!--==================== PLACES CARD 5 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/Maisonette Flat roof 2/1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
+                    <button class="button button--flex place__button">
+                        <a href="Mansionatte.html"><i class="ri-arrow-right-line"></i></a>
+                    </button>
+                </div>
+                <!--==================== PLACES CARD 5 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/Maisonette Flat roof 1/1.jpg" alt="" class="place__img">
 
-                            <div class="place__data">
-                                <h3 class="place__title">Maisonette</h3>
-                                <span class="place__subtitle">Flat Roof</span>
-                                <!-- <span class="place__price">$1999</span> -->
-                            </div>
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Maisonette</h3>
+                            <span class="place__subtitle">Flat Roof</span>
+                            <!-- <span class="place__price">$1999</span> -->
                         </div>
+                    </div>
 
-                        <button class="button button--flex place__button">
-                            <a href="Mansionatte.html" ><i class="ri-arrow-right-line"></i></a>
+                    <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                </div>
+                <div class="place__card">
+                    <img src="assets/img/Multidwelling/1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Multidwelling</h3>
+                            <!-- <span class="place__subtitle">Flat Roof</span> -->
+                            <!-- <span class="place__price">$1999</span> -->
+                        </div>
+                    </div>
+
+                    <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                </div>
+                <div class="place__card">
+                    <img src="assets/img/Catholic/3.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Religious</h3>
+                            <!-- <span class="place__subtitle"> Roof</span> -->
+                            <!-- <span class="place__price">$1999</span> -->
+                        </div>
+                    </div>
+
+                    <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                </div>
+                <div class="place__card">
+                    <img src="assets/img/Renovation/1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4.8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Maisonette</h3>
+                            <!-- <span class="place__subtitle">Flat Roof</span> -->
+                            <!-- <span class="place__price">$1999</span> -->
+                        </div>
+                    </div>
+
+                    <!-- <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button> -->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                    <p class="subscribe__description">Subscribe to our newsletter and get a
+                        special 30% discount.
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Enter email" class="subscribe__input">
+
+                        <button class="button">
+                            Subscribe
                         </button>
-                    </div>
-                    <!--==================== PLACES CARD 5 ====================-->
-                    <div class="place__card">
-                        <img src="assets/img/Maisonette Flat roof 1/1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Maisonette</h3>
-                                <span class="place__subtitle">Flat Roof</span>
-                                <!-- <span class="place__price">$1999</span> -->
-                            </div>
-                        </div>
-
-                        <!-- <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button> -->
-                    </div>
-                    <div class="place__card">
-                        <img src="assets/img/Multidwelling/1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Multidwelling</h3>
-                                <!-- <span class="place__subtitle">Flat Roof</span> -->
-                                <!-- <span class="place__price">$1999</span> -->
-                            </div>
-                        </div>
-
-                        <!-- <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button> -->
-                    </div>
-                    <div class="place__card">
-                        <img src="assets/img/Catholic/3.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Religious</h3>
-                                <!-- <span class="place__subtitle"> Roof</span> -->
-                                <!-- <span class="place__price">$1999</span> -->
-                            </div>
-                        </div>
-
-                        <!-- <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button> -->
-                    </div>
-                    <div class="place__card">
-                        <img src="assets/img/Renovation/1.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4.8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Maisonette</h3>
-                                <!-- <span class="place__subtitle">Flat Roof</span> -->
-                                <!-- <span class="place__price">$1999</span> -->
-                            </div>
-                        </div>
-
-                        <!-- <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button> -->
-                    </div>
+                    </form>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== SUBSCRIBE ====================-->
-            <!-- <section class="subscribe section">
-                <div class="subscribe__bg">
-                    <div class="subscribe__container container">
-                        <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
-                        <p class="subscribe__description">Subscribe to our newsletter and get a 
-                            special 30% discount.
-                        </p>
-    
-                        <form action="" class="subscribe__form">
-                            <input type="text" placeholder="Enter email" class="subscribe__input">
-    
-                            <button class="button">
-                                Subscribe
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </section> -->
-            
-            <!--==================== SPONSORS ====================-->
-            <!-- <section class="sponsor section">
+        <!--==================== SPONSORS ====================-->
+        <!-- <section class="sponsor section">
                 <div class="sponsor__container container grid">
                     <div class="sponsor__content">
                         <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
@@ -389,107 +531,110 @@
                     </div>
                 </div>
             </section> -->
-        </main>
+    </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content grid">
-                    <div class="footer__data">
-                        <h3 class="footer__title">Outline Designs</h3>
-                        <p class="footer__description">Outline Designs  <br> Bringing your vision to life, one outline at a time
-                        </p>
-                        <div>
-                            <a href="https://www.facebook.com/profile.php?id=100072403491575&sk=about" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
-                            </a>
-                            <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/outline_designs_ltd/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-                            <!-- <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Outline Designs</h3>
+                    <p class="footer__description">Outline Designs <br> Bringing your vision to life, one outline at a
+                        time
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100072403491575&sk=about" target="_blank"
+                            class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/outline_designs_ltd/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <!-- <a href="https://www.youtube.com/" target="_blank" class="footer__social">
                                 <i class="ri-youtube-fill"></i>
                             </a> -->
-                            <ul>
-                                <li class="footer__item">
-                                    <a href="" class="footer__link"> +254 718 275 068</a>
-                                </li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
+                                <a href="" class="footer__link"> +254 718 275 068</a>
                             </li>
                         </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
-                            </li>
-                        
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Support</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
+
                     </div>
                 </div>
 
-                <div class="footer__rights">
-                   
-                        <!-- <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script> -->
-                    
-                    <p class="footer__copy">&#169; 2023 Outline Designs. All rigths reserved.</p>
-                    <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
-                    </div>
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Team</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
 
-         <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line scrollup__icon"></i>
-        </a>
+            <div class="footer__rights">
 
-        <!--=============== SCROLL REVEAL===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-        
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+                <!-- <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script> -->
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                <p class="footer__copy">&#169; 2023 Outline Designs. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

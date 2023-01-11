@@ -1044,3 +1044,208 @@ input {
     height: 640px;
   }
 }
+.fa-servicestack:before {
+  content: "\f3ec";
+}
+
+
+.service-single {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.06);
+  padding: 50px;
+  position: relative;
+  text-align: center;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+.service-single:hover {
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.service-single h5 {
+  margin: 25px 0 15px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.service-single:hover h5 {
+  color: #fff;
+}
+.service-single p {
+  text-align: center;
+  transition: all 0.3s;
+}
+.service-single p:last-child {
+  margin-bottom: 0;
+}
+.service-single:hover p {
+  color: #eee;
+}
+.service-single .icon {
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 80px;
+}
+.service-single .icon:before {
+  line-height: 80px;
+}
+.service-single:hover .icon {
+  background-color: #fff !important;
+}
+.service-single .icon.image-icon {
+  background-color: #fff !important;
+  height: auto;
+  padding: 20px;
+  width: auto;
+}
+.service-single .icon.image-icon > img {
+  max-width: 80px;
+}
+.service-single.service-style-2 {
+  background-color: transparent !important;
+  box-shadow: none;
+  padding: 0;
+}
+.service-single.service-style-2:hover {
+  background: transparent !important;
+}
+.service-single.service-style-2 .icon {
+  background-color: transparent !important;
+  font-size: 60px;
+  height: 60px;
+  line-height: 60px;
+  width: auto;
+}
+.service-single.service-style-2 .icon.image-icon {
+  margin-bottom: 30px;
+  padding: 0;
+}
+.service-single.service-style-2 h5 {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+.service-single.service-style-2 p {
+  color: #999;
+}
+.service-single.service-style-2:hover p {
+  color: #666;
+}
+.service-mobile {
+  margin-bottom: -120px;
+  padding-top: 70px;
+  position: relative;
+  z-index: 2;
+}
+
+#overview {
+  overflow: hidden;
+}
+#overview:before {
+  background-color: #eef3fa;
+  border-radius: 120px;
+  content: "";
+  height: 1000px;
+  left: 48%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: skew(-15deg) rotate(38deg) translateY(-50%);
+  transform: skew(-15deg) rotate(38deg) translateY(-50%);
+  width: 1200px;
+  z-index: 0;
+}
+.overview-box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  position: relative;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  transition: all 0.3s;
+}
+.overview-box:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+.overview-box .icon {
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 60px;
+}
+.overview-box .icon:before {
+  line-height: 60px;
+}
+.overview-box .icon > img {
+  -webkit-filter: brightness(1) invert(1);
+  filter: brightness(1) invert(1);
+}
+.overview-box:hover .icon > img {
+  -webkit-filter: none;
+  filter: none;
+}
+.overview-box .content {
+  padding-left: 20px;
+  transition: all 0.3s;
+  width: calc(100% - 60px);
+}
+.overview-box .content p {
+  margin-bottom: 0;
+}
+.overview-box:hover .icon {
+  background-color: #fff !important;
+}
+.overview-box:hover .content h6,
+.overview-box:hover .content p {
+  color: #fff;
+}
+.overview-list {
+  list-style: none;
+  margin-left: 2em;
+  padding: 0;
+}
+.overview-list,
+.overview-list li p {
+  position: relative;
+}
+.overview-list .fa-li {
+  width: 16px;
+}
+
+section.parallax a:hover,
+      section.parallax h1,
+      section.parallax h2,
+      section.parallax h3,
+      section.parallax h4,
+      section.parallax h5,
+      section.parallax h6,
+      section.parallax p {
+        color: #fff;
+      }
+      a,
+      a:hover {
+        text-decoration: none;
+      }
+      a:hover {
+        color: #111;
+      }
+      a:not([href]):not([tabindex]),
+      a:not([href]):not([tabindex]):focus,
+      a:not([href]):not([tabindex]):hover {
+        color: inherit;
+        text-decoration: none;
+      }
