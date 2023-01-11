@@ -1148,7 +1148,7 @@ input {
 #overview {
   overflow: hidden;
 }
-#overview:before {
+/* #overview:before {
   background-color: #eef3fa;
   border-radius: 120px;
   content: "";
@@ -1160,7 +1160,7 @@ input {
   transform: skew(-15deg) rotate(38deg) translateY(-50%);
   width: 1200px;
   z-index: 0;
-}
+} */
 .overview-box {
   background-color: #fff;
   border-radius: 6px;
