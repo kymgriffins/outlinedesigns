@@ -140,7 +140,8 @@ a {
 img,
 video {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
+ 
 }
 
 button,
@@ -152,6 +153,16 @@ input {
 
 button {
   cursor: pointer;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #7aa8b7;
+  border-radius: 6px;
+  outline: none;
 }
 
 input {
@@ -545,7 +556,7 @@ input {
 
 /*=============== VIDEO ===============*/
 .video__container {
-  padding-bottom: 1rem;
+  padding-bottom: 5 px;
 }
 
 .video__description {
@@ -553,9 +564,9 @@ input {
   margin-bottom: var(--mb-2-5);
 }
 
-.video__content {
+/* .video__content {
   position: relative;
-}
+} */
 
 .video__button {
   position: absolute;
